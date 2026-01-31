@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Nigel</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Nigel</span>
+        </h1>
+        <p class="hero-subtitle">
+          Full Stack Developer | Creative Thinker | Problem Solver
+        </p>
+        <p class="hero-description">
+          Crafting beautiful and functional digital experiences
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          <a class="fas fa-download" href="./final draft CV .pdf" id="cvBtn">Download CV</a>
+        </div>
+      </div>
+      <div class="hero-animation">
+        <img src="hero image.jpg" alt="Hero" class="hero-image" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Welcome to my digital portfolio! I’m a passionate developer and
+              creative professional dedicated to building innovative solutions
+              that make an impact. With a strong foundation in both academics
+              and practical experience, I bring a unique blend of theoretical
+              knowledge and hands‑on skills to every project. I believe in
+              continuous learning and staying updated with the latest
+              technologies. My journey has been shaped by curiosity,
+              determination, and a commitment to excellence in everything I do.
+              But beyond the code, what drives me is the thrill of solving
+              real‑world problems — transforming ideas into interactive
+              experiences that people can actually use and enjoy. From sleek web
+              apps to socially conscious platforms, each project I create is
+              more than just a technical exercise; it’s a reflection of my
+              vision to merge creativity with functionality. I thrive on
+              challenges, whether it’s integrating APIs for real‑time data,
+              designing intuitive user interfaces, or experimenting with new
+              frameworks to push the boundaries of what’s possible. What sets me
+              apart is not just the ability to write clean, efficient code, but
+              the mindset to think like a designer, an entrepreneur, and a
+              problem‑solver all at once. I see every project as an opportunity
+              to learn, grow, and leave behind something meaningful. This
+              portfolio is more than a showcase — it’s a journey through my
+              evolution as a developer. So dive in, explore, and discover the work that
+              fuels my passion.
+            </p>
+            <p>
+              I believe in continuous learning and staying updated with the
+              latest technologies. My journey has been shaped by curiosity,
+              determination, and a commitment to excellence in everything I do.
+            </p>
+          </div>
+          <div class="about-image">
+            <img src="section image.jpg" alt="Profile" class="section-image" />
+          </div>
+          <div class="about-stats">
+            <div class="stat">
+              <h3>10+</h3>
+              <p>Projects Completed</p>
+            </div>
+            <div class="stat">
+              <h3>600+</h3>
+              <p>Hours Spent on Projects</p>
+            </div>
+            <div class="stat">
+              <h3>1</h3>
+              <p>Years Experience</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Academic Achievements Section -->
+    <section id="achievements" class="achievements">
+      <div class="container">
+        <h2 class="section-title">Academic Achievements</h2>
+
+        <div class="achievements-grid">
+          <!-- Education -->
+          <div class="achievement-card">
+            <div class="achievement-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>N4</h3>
+            <p class="achievement-meta">Rostec Collge | 2025</p>
+            <p class="achievement-desc">
+              Computer Science & Systems Development. Relevant coursework: Data
+              Structures, Algorithms, Web Development, Database Management, and
+              Software Engineering.
+            </p>
+            <p class="achievement-highlight">CGPA: 8.5/10</p>
+          </div>
+
+          <!-- Certifications -->
+          <div class="achievement-card">
+            <div class="achievement-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <h3>Certifications</h3>
+            <ul class="cert-list">
+              <li>✓ AWS Certified Cloud Practitioner</li>
+              <li>✓ Certificate of Completion in JavaScript</li>
+              <li>✓ Certificate of Completion in HTML5</li>
+              <li>✓ Full Stack Web Development Bootcamp</li>
+              <li>✓ Microsoft Azure Fundamentals</li>
+            </ul>
+          </div>
+
+          <!-- Awards & Honors -->
+          <div class="achievement-card">
+            <div class="achievement-icon">
+              <i class="fas fa-award"></i>
+            </div>
+            <h3>Awards & Honors</h3>
+            <ul class="awards-list">
+              <li>🏆 Certificate of Completion in HTML5</li>
+              <li>🏆 Certificate of Completion in JavaScript</li>
+              <li>🥇 Best project archivement</li>
+              <li>🏅 Best Project Programmer</li>
+              <li>⭐ Innovation Excellence Recognition</li>
+            </ul>
+          </div>
+
+          <!-- Skills -->
+          <div class="achievement-card">
+            <div class="achievement-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Technical Skills</h3>
+            <div class="skills-tags">
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+              <span class="skill-tag">Git & GitHub</span>
+              <span class="skill-tag">Figma</span>
+              <span class="skill-tag">Adobe</span>
+            </div>
+          </div>
+
+          <!-- Research -->
+          <div class="achievement-card">
+            <div class="achievement-icon">
+              <i class="fas fa-flask"></i>
+            </div>
+            <h3>Research & Publications</h3>
+            <ul class="research-list">
+              <li>📄 Published site on "GBV & 2D Game Development"</li>
+              <li>📊 Research in systems Development at Standard Bank</li>
+              <li>🔬 Contributed to 3 peer-reviewed Programmig projects</li>
+            </ul>
+          </div>
+
+          <!-- Languages -->
+          <div class="achievement-card">
+            <div class="achievement-icon">
+              <i class="fas fa-language"></i>
+            </div>
+            <h3>Languages</h3>
+            <div class="language-list">
+              <div class="language-item">
+                <span>English</span>
+                <div class="language-bar">
+                  <div class="language-progress" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="language-item">
+                <span>IsiZulu</span>
+                <div class="language-bar">
+                  <div class="language-progress" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="language-item">
+                <span>SeSotho</span>
+                <div class="language-bar">
+                  <div class="language-progress" style="width: 65%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div
+              class="project-image"
+              style="
+                background: url(&quot;weather project image.png&quot;);
+                background-size: cover;
+                background-position: center;
+              "
+            ></div>
+            <div class="project-content">
+              <h3>Weather Web App</h3>
+              <p>
+                I built this weather web app to demonstrate my ability to
+                integrate real‑time data through APIs and transform it into a
+                sleek, modern interface. It showcases my front‑end & back-end
+                development, along with the responsive design and clean UI/UX
+                principles. By combining technical reliability with aesthetic
+                polish, this project proves my capability to build applications
+                that are both functional and engaging. The app is fully
+                responsive and designed with a focus on user experience.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a href="https://08nigel.github.io/weather/" class="project-link"
+                >View Project →</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div
+              class="project-image"
+              style="
+                background: url(&quot;GBV project.PNG&quot;);
+                background-size: cover;
+                background-position: center;
+              "
+            ></div>
+            <div class="project-content">
+              <h3>GBV Awareness Website</h3>
+              <p>
+                In response to the 2025 march against femicide in South Africa,
+                I built a website dedicated to raising awareness and preventing
+                Gender-Based Violence (GBV) with instructions to the awareness.
+                This project reflects my commitment to using technology for
+                social impact, combining modern web design with accessible
+                resources to educate, empower, and amplify voices calling for
+                change. It demonstrates not only my technical skills but also my
+                drive to create solutions that matter in real-world contexts.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Figma</span>
+              </div>
+              <a
+                href=" https://08nigel.github.io/stopGenderBasedViolence/"
+                class="project-link"
+                >View Project →</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div
+              class="project-image"
+              style="
+                background: url(&quot;e shop project.PNG&quot;);
+                background-size: cover;
+                background-position: center;
+              "
+            ></div>
+            <div class="project-content">
+              <h3>E-commerce Website</h3>
+              <p>
+                I developed a fully responsive e‑commerce website focused on the
+                front‑end experience, showcasing my ability to design modern,
+                intuitive shopping interfaces. This project highlights my skills
+                in HTML, CSS, and JavaScript, with attention to clean UI/UX,
+                product listings, and interactive features like dynamic carts
+                and filtering. It demonstrates my capability to build polished,
+                user‑friendly platforms that replicate real‑world online
+                shopping experiences.
+              </p>
+              
+              <div class="project-tags">
+                <span>HTML5</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a href="https://08nigel.github.io/threadix/" class="project-link">View Project →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-subtitle">Have an exciting project? Let's talk!</p>
+
+        <div class="contact-content">
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" name="name" autocomplete="name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" name="email" autocomplete="email" required />
+              </div>
+              <div class="form-group">
+                <textarea
+                  placeholder="Your Message"
+                  rows="5"
+                  name="message"
+                  autocomplete="message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>sollysavege@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <p>+27 65 520 3638</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Location</h4>
+                <p>Johannesburg, Katlehong</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a
+                href="https://github.com/08Nigel"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/solly-savege-175371396"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100083699144685"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a
+                href="https://dribbble.com/profile/Nigel Nyandoro"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-dribbble"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 Nigel Nyandoro. All rights reserved.</p>
+        <p>Designed & Built with passion</p>
+      </div>
+    </footer>
+
+    
+    <script src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
+  </body>
+</html>
